@@ -1,3 +1,3 @@
-INSERT INTO burgers (name) VALUES ('Elevation');
-INSERT INTO burgers (name) VALUES ('Mushroom Swiss');
-INSERT INTO burgers (name, devoured) VALUES ('Big NOT Mac', true);
+USE burgers_db;
+INSERT INTO burgers(burger_name, devoured)
+VALUES ("Elevation", false), ("Mushroom Swiss", false), ("Big NOT Mac", false)
