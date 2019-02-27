@@ -23,4 +23,5 @@ var burger = {
     }
 };
 
+// export burger functions for burgersController.js
 module.exports = burger;
